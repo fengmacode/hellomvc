@@ -9,7 +9,7 @@ namespace HelloMvc
         
         [HttpGet("/about")]
         public ActionResult About(){
-            return Json("ok");
+            return Json("ok2");
         }
     }
 }
